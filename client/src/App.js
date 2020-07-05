@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class App extends Component {
   }
 
   callAPI() {
-    fetch("https://api.nytimes.com/svc/topstories/v2/home.json?api-key=03C0wf7CSVyCAqKLuWeJz1QpV4FXfvrQ")
+    fetch("https://api.nytimes.com/svc/topstories/v2/home.json?api-key=" + REACT_APP_API_KEY)
       .then(resp => resp.json())
       .then(
         (result) => {
