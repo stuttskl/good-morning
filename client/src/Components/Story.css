@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .storyCard {
   background: #D7D7D7;
   border: 1px solid #C5C5C5;
   box-sizing: border-box;
-  padding: 10px;
-  margin: 20px;
+  padding: 1.5em;
+  margin: 1.5em;
+}
+
+.btn {
+  background-color: #fed39f;
+  border: 1px solid;
+  border-radius: 5%;
+  font-size: .7em;
+  padding: .2em;
+  width: 15em;
+  height: 3em;
+}
+
+.btn:hover {
+  background-color: #f6eec9;
 }

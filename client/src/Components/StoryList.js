@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Story from './Story';
+import './StoryList.css';
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 
 class StoryList extends Component {
@@ -50,7 +51,7 @@ class StoryList extends Component {
       return <div> <h1>Loading stories ...</h1> </div>
     } else {
     return (
-        <div>
+        <div className='container'>
           <ol>
             { stories }
           </ol>

@@ -3,9 +3,9 @@ import './Story.css';
 
 const Story = ({title, abstract, url}) => (
   <div className='storyCard'>
-    <h1>{title}</h1>
+    <h3>{title}</h3>
     <p>{abstract}</p>
-    <a href={url}>View Full</a> 
+    <button className='btn'><a href={url}>View Full</a></button> 
   </div>
 )
 
