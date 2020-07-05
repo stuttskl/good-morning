@@ -21,7 +21,7 @@ class StoryList extends Component {
             isLoaded: true,
             posts: result.results
           });
-          console.log(result.results)
+          console.log(result.results[0])
         },
         (error) => {
           this.setState({
@@ -38,10 +38,10 @@ class StoryList extends Component {
 
   render() {
     const { error, isLoaded, posts } = this.state;
-    const stories = posts.map((t) => (
+    const stories = posts.map((story, idx) => (
       <Story
-        key={t._id}
-        {...t}
+        key={idx}
+        {...story}
       />
     ));
     if (error) {
