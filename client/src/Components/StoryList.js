@@ -22,7 +22,6 @@ class StoryList extends Component {
             isLoaded: true,
             posts: result.results
           });
-          console.log(result.results[0])
         },
         (error) => {
           this.setState({
