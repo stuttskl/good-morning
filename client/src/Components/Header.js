@@ -3,8 +3,8 @@ import './Header.css';
 
 const Header = () => (
   <h1 className='headerBox'>
-    good morning 
-    <span role='img' aria-label='hot beverage'> ☕</span>
+    <p className='headerText'>good morning 
+    <span role='img' aria-label='hot beverage'> ☕</span></p>
   </h1>
 )
 

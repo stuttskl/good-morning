@@ -1,7 +1,11 @@
 .headerBox {
-  background-color: #AF460F;
-  color: #FED39F;
+  background-color: #272E44;
+  color: #EBEDE9;
   margin: auto;
-  padding: 1em;
-  width: 100%;
+  /* padding: 1em 0; */
+  width: inherit;
+}
+
+.headerText {
+  padding: .5em;
 }

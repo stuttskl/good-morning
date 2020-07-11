@@ -5,27 +5,30 @@ a {
 }
 
 h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', sans-serif;
 }
 
 .storyCard {
-  background: #D7D7D7;
-  border: 1px solid #C5C5C5;
+  background: #F5F6F4;
+  border: 1px solid #F5F6F4;
+  border-radius: .5rem;
   box-sizing: border-box;
   padding: 1.5em;
   margin: 1.5em;
 }
 
 .btn {
-  background-color: #fed39f;
+  background-color: #272E44;
   border: 1px solid;
-  border-radius: 5%;
-  font-size: .7em;
+  border-radius: .3rem;
+  color: #F5F6F4;
+  font-size: .9em;
   padding: .2em;
-  width: 15em;
+  width: 10em;
   height: 3em;
 }
 
 .btn:hover {
-  background-color: #f6eec9;
+  background-color: #343E5B;
+  cursor: pointer;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Story from './Story';
+import Filter from './Filter';
 import './StoryList.css';
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -51,6 +52,7 @@ class StoryList extends Component {
     } else {
     return (
         <div className='container'>
+          {/* <Filter /> */}
           <ol>
             { stories }
           </ol>
